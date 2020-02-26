@@ -30,7 +30,7 @@ class Utils extends Serializable {
 object EntryPoint {
     val usage = """
         Usage: EntryPoint <how_many> <file_or_directory_in_hdfs>
-        Eample: EntryPoint 10 /data/spark/project/access/access.log.45.gz
+        Eample: EntryPoint 10 /data/spark/project/access/access.log.9.gz
     """
     
     def main(args: Array[String]) {
